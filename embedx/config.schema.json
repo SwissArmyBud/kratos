@@ -2267,6 +2267,18 @@
                   "$ref": "#/definitions/smsCourierTemplate"
                 }
               }
+            },
+            "authenticator_key_added": {
+              "additionalProperties": false,
+              "type": "object",
+              "properties": {
+                "email": {
+                  "$ref": "#/definitions/emailCourierTemplate"
+                },
+                "sms": {
+                  "$ref": "#/definitions/smsCourierTemplate"
+                }
+              }
             }
           }
         },
